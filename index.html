@@ -2,115 +2,12 @@
 <html>
     <head>
         <title>White Cat homework</title>
-        <style>
-            body {
-                background-color: rgba(0, 0, 0, 0.6);
-                background-blend-mode: multiply;
-                background-image: url('./img.png');
-            }
-            div{
-                text-align: center;
-            }
-            footer{
-                vertical-align: auto;
-                margin-top: 115px;
-                text-align: center;
-            }
-            .btn {
-                text-align: center;
-                border-radius: 50%;
-                display: inline-flex;
-                color: #000;
-                border: none;
-                padding: 30px;
-                margin-left: 25px;
-                margin-right: 25px;
-            }
-            @keyframes loading{
-                0%{
-                    background-color: rgba(254, 255, 246, 0.75);
-                    transform: rotateX(-35deg);
-                }
-                100%{
-                    background-color: rgba(254, 255, 246, 0.95);
-                    transform: rotateX(0deg);
-                }
-            }
-            .maindiv{
-                animation: loading;
-                animation-duration: 1.5s;
-                border-radius: 1.5%;
-                background-color: rgba(254, 255, 246, 0.95);
-                text-align: center;
-                align-items: center;
-                margin: 0px auto;
-                margin-top: 150px;
-                padding-left: 80px;
-                padding-right: 80px;
-                padding-top: 90px;
-                padding-bottom: 200px;
-                width: 350px;
-                position: relative;
-
-            }
-            .btndiv{
-                align-self: center;
-                text-align: center;
-                margin: 0px auto;
-                position: absolute;
-                bottom: 10%;
-            }
-            .fb{
-                width: 60px;
-                height: 60px;
-                background-image: url('./icon-fb.png');
-            }
-            .fb:hover{
-                text-align: center;
-                transition: .05s;
-                background-image: url('./icon-fb-hover.png');
-            }
-            .ig{
-                width: 60px;
-                height: 60px;
-                background-image: url('./icon-ig.png');
-            }
-            .ig:hover{
-                text-align: center;
-                transition: .05s;
-                background-image: url('./icon-ig-hover.png');
-            }
-            .yt{
-                width: 60px;
-                height: 60px;
-                background-image: url('./icon-yt.png');
-            }
-            .yt:hover{
-                text-align: center;
-                transition: .05s;
-                background-image: url('./icon-yt-hover.png');
-            }
-            .describe{
-                margin: 0%;
-                text-align: center;
-            }
-            .name{
-                margin: 0px 0px 20px 0px;
-                font-size: 45px;
-            }
-            .intro{
-                margin: 0%;
-                font-family: sans-serif;
-                line-height: 40px;
-                font-weight: 300;
-                font-size: 17px;
-            }
-            .avatar{
-                border-radius: 50%;
-                height: 140px;
-                width: 140px;
-            }
-        </style>
+        <meta name="viewport" 
+        content="width=device-width, 
+        initial-scale=1.0, 
+        maximum-scale=1.0, 
+        user-scalable=no">
+        <link rel="stylesheet" href="./main.css">
     </head>
     <body>
 
@@ -126,9 +23,9 @@
                 </p>
             </div>
             <div class="btndiv">
-                <button class="btn fb", onclick=window.open('https://www.facebook.com/profile.php?id=100007853714471')></button>
-                <button class="btn yt", onclick=window.open('https://www.youtube.com/channel/UCajj-b24E7Afyn82S9q4LBQ')></button>
-                <button class="btn ig", onclick=window.open('https://www.instagram.com/ckcsc35th_peppa/')></button>
+                <button class="btn fb", onclick="window.open('https://www.facebook.com/profile.php?id=100007853714471')"></button>
+                <button class="btn yt", onclick="window.open('https://www.youtube.com/channel/UCajj-b24E7Afyn82S9q4LBQ')"></button>
+                <button class="btn ig", onclick="window.open('https://www.instagram.com/ckcsc35th_peppa/')"></button>
             </div>
         </div>
         
