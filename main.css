@@ -17,14 +17,15 @@ footer {
 }
 
 .rounded-button {
-    text-align: center;
+    align-items: center;
+    text-align: left;
     display: flex;
     color: #fff;
     border-radius: 20px;
     background: #171510;
-    width: 18vw;
+    width: 100%;
     height: 6vh;
-    margin-top: 1.6vh;
+    margin: 1.6vh 0px 0px 0px;
     cursor: pointer;
     text-decoration: none;
 }
@@ -52,19 +53,16 @@ footer {
     padding-left: 5vw;
     padding-right: 5vw;
     padding-top: 10vh;
-    padding-bottom: 24vh;
+    padding-bottom: 15vh;
     width: 18vw;
     position: relative;
 }
 
 .btndiv {
     margin: 0%;
-    display: flexbox;
-    position: absolute;
-    bottom: 10%;
+    align-content: center;
+
 }
-
-
 .describe {
     margin: 0%;
     text-align: center;
@@ -89,16 +87,28 @@ footer {
     width: 15.5vh;
  }
 
-@media (max-width: 520px) {
+@media (max-width: 1200px) {
     .maindiv {
-        width: 260px;
+        width: 40vw;
     }
-    .btn {
-
-        margin-left: 20px;
-        margin-right: 20px;
+}
+@media (max-width: 1020px) {
+    .maindiv {
+        width: 50vw;
     }
-    .btndiv{
-        left: 52px;
+}
+@media (max-width: 850px) {
+    .maindiv {
+        width: 60vw;
+    }
+}
+@media (max-width: 500px) {
+    .maindiv {
+        width: 70vw;
+    }
+}
+@media (max-width: 300px) { 
+    .name{
+        font-size: 35px;
     }
 }
