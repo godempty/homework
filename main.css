@@ -2,7 +2,7 @@
 body {
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: multiply;
-    background-image: url('./img.png');
+    background-image: url('./resource/bg.png');
     background-position: center;
 }
 
@@ -16,16 +16,19 @@ footer {
     text-align: center;
 }
 
-.btn {
+.rounded-button {
     text-align: center;
-    border-radius: 50%;
-    display: inline-flex;
-    color: #000;
-    border: none;
-    padding: 30px;
-    margin-left: 25px;
-    margin-right: 25px;
+    display: flex;
+    color: #fff;
+    border-radius: 20px;
+    background: #171510;
+    width: 18vw;
+    height: 6vh;
+    margin-top: 1.6vh;
+    cursor: pointer;
+    text-decoration: none;
 }
+
 
 @keyframes loading {
     0% {
@@ -45,57 +48,22 @@ footer {
     text-align: center;
     align-items: center;
     margin: 0px auto;
-    margin-top: 150px;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 90px;
-    padding-bottom: 200px;
-    width: 340px;
+    margin-top: 12.5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 10vh;
+    padding-bottom: 24vh;
+    width: 18vw;
     position: relative;
 }
 
 .btndiv {
-    align-self: center;
-    text-align: center;
-    margin: 0px;
+    margin: 0%;
+    display: flexbox;
     position: absolute;
     bottom: 10%;
 }
 
-.fb {
-    width: 60px;
-    height: 60px;
-    background-image: url('./icon-fb.png');
-}
-
-.fb:hover {
-    text-align: center;
-    transition: .05s;
-    background-image: url('./icon-fb-hover.png');
-}
-
-.ig {
-    width: 60px;
-    height: 60px;
-    background-image: url('./icon-ig.png');
-}
-.ig:hover {
-    text-align: center;
-                transition: .05s;
-    background-image: url('./icon-ig-hover.png');
-}
-
-.yt {
-    width: 60px;
-    height: 60px;
-    background-image: url('./icon-yt.png');
-}
-
-.yt:hover {
-    text-align: center;
-    transition: .05s;
-    background-image: url('./icon-yt-hover.png');
-}
 
 .describe {
     margin: 0%;
@@ -103,22 +71,22 @@ footer {
 }
 
 .name {
-    margin: 0px 0px 20px 0px;
+    margin: 1vh 0px 1vh 0px;
     font-size: 45px;
 }
 
 .intro {
     margin: 0%;
-    font-family: sans-serif;
-    line-height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 3vh;
     font-weight: 300;
     font-size: 17px;
 }
 
 .avatar {
     border-radius: 50%;
-    height: 140px;
-    width: 140px;
+    height: 15.5vh;
+    width: 15.5vh;
  }
 
 @media (max-width: 520px) {
