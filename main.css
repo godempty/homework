@@ -1,9 +1,9 @@
 
 body {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(187, 204, 241, 0.6);
     background-blend-mode: multiply;
     background-image: url('./resource/bg.png');
-    background-position: center;
+    background-size: cover;
 }
 
 div {
@@ -21,6 +21,7 @@ footer {
     text-align: left;
     display: flex;
     color: #fff;
+    justify-content: center;
     border-radius: 20px;
     background: #171510;
     width: 100%;
@@ -37,7 +38,7 @@ footer {
         transform: rotateX(-35deg);
     }
     100% {
-        background-color: rgba(254, 255, 246, 0.95);
+        background-color: rgba(254, 255, 246, 0.85);
         transform: rotateX(0deg);
     }
 }
@@ -45,7 +46,7 @@ footer {
     animation: loading;
     animation-duration: 1.5s;
     border-radius: 1.5%;
-    background-color: rgba(254, 255, 246, 0.95);
+    background-color: rgba(254, 255, 246, 0.85);
     text-align: center;
     align-items: center;
     margin: 0px auto;
@@ -53,13 +54,17 @@ footer {
     padding-left: 5vw;
     padding-right: 5vw;
     padding-top: 10vh;
-    padding-bottom: 15vh;
+    padding-bottom: 12vh;
     width: 18vw;
     position: relative;
 }
 
+.space{
+    width: 0.5rem;
+}
+
 .btndiv {
-    margin: 0%;
+    margin: 10% 0% 0% 0%;
     align-content: center;
 
 }
@@ -75,7 +80,7 @@ footer {
 
 .intro {
     margin: 0%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
     line-height: 3vh;
     font-weight: 300;
     font-size: 17px;
@@ -109,6 +114,6 @@ footer {
 }
 @media (max-width: 300px) { 
     .name{
-        font-size: 35px;
+        font-size: 32px;
     }
 }
