@@ -17,6 +17,7 @@ footer {
 }
 
 .rounded-button {
+    transition-duration: 0.5s;
     align-items: center;
     text-align: left;
     display: flex;
@@ -31,6 +32,11 @@ footer {
     text-decoration: none;
 }
 
+.rounded-button:hover {
+    transition-duration: 0.5s;
+    background: #27241d;
+    opacity: 0.8;
+}
 
 @keyframes loading {
     0% {
